@@ -1,7 +1,12 @@
 .banner_1{
     background-color: #f3f5f7;
-    padding: 0 74px;
+    width: 100%;
     padding-bottom: 16px;
+}
+
+.banner1_box{
+    width: 1200px;
+    margin: auto;
 }
 
 .banner1_top{

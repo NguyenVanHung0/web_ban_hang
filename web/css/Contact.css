@@ -1,0 +1,117 @@
+.contact{
+    padding: 20px 74px;
+    background-color: var(--white-color);
+}
+
+.contact_content{
+    display: flex;
+    
+}
+
+.contact_add-mail-phone{
+    flex: 1;
+}
+
+.contact_header{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 10px 0px 20px;
+}
+
+.contact_item{
+    margin: 8px 0;
+    font-size: 1.6rem;
+    color: var(--over-color);
+}
+
+.contact_item i{
+    padding: 8px;
+    border: 1px dashed #ccc;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.contact_item a{
+    text-decoration: none;
+    color: var(--over-color);
+}
+
+.contact_item a:hover{
+    color: var(--hover-color);
+}
+
+.contact_address p{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+.contact_help{
+    flex: 1;
+    margin: 10px 0px 0px;
+}
+
+.contact_help-header{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.contact_help-text{
+    color: var(--over-color);
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: var(--over-color);
+    margin-bottom: 16px;
+}
+
+.form_item input{
+    height: 40px;
+    padding: 4px 8px;
+    outline: none;
+    margin-top: 4px;
+    width: 85%;
+}
+
+.form_item textArea{
+    color: var(--over-color);
+    padding: 4px 8px;
+    outline: none;
+    margin-top: 4px;
+    width: 85%;
+}
+
+.contact_help form button{
+    padding: 8px 16px;
+    min-width: 100px;
+    border: none;
+    outline: none;
+    background-color: var(--black-color);
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
+.contact_help form button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contact_map{
+    margin-top: 20px;
+}
+

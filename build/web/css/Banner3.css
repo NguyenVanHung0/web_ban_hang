@@ -1,6 +1,11 @@
 .banner3{
-    padding: 0 74px;
+    width: 100%;
     margin-top: 27px;
+}
+
+.banner3_box{
+    width: 1200px;
+    margin: auto;
 }
 
 .img_box{

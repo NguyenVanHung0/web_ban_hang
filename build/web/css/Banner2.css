@@ -1,7 +1,12 @@
 .banner2{
-   padding: 0 74px;
+   width: 100%;
    background-color: var(--white-color);
    margin-top:16px;
+}
+
+.banner2_box{
+    width: 1200px;
+    margin: auto;
 }
 
 .banner2_top,

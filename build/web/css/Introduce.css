@@ -1,0 +1,16 @@
+.introduce{
+    padding: 20px 74px;
+}
+
+.introduce h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 10px 0 20px;
+}
+
+.introduce p{
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
