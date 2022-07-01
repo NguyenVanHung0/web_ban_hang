@@ -14,61 +14,59 @@
     </head>
     <body>
         <jsp:include page="Header.jsp"></jsp:include>
-        
-        <div class="contact">
-            <div class="contact_content">
-                <div class="contact_add-mail-phone">
-                    <p class="contact_header">Liên hệ với chúng tôi</p>
-                    <div class="contact_item contact_address">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Số 6 Phan Chu Trinh, Quận 10, TP.HCM</p>
+
+            <div class="contact">
+                <div class="contact_box">
+                    <div class="contact_content">
+                        <div class="contact_add-mail-phone">
+                            <p class="contact_header">Liên hệ với chúng tôi</p>
+                            <div class="contact_item contact_address">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Số 6 Phan Chu Trinh, Quận 10, TP.HCM</p>
+                            </div>
+                            <div class="contact_item contact_phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:0123456789">0123.456.789</a>
+                            </div>
+                            <div class="contact_item contact_mail">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:hung@gmail.com">hung@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact_help">
+                            <p class="contact_help-header">
+                                Bạn cần hỗ trợ? Hãy gửi thông tin cho chúng tôi
+                            </p>
+                            <p class="contact_help-text">
+                                Chúng tôi rất sẵn lòng trả lời bất kỳ câu hỏi, thắc mắc nào của bạn.
+                            </p>
+                            <form>
+                                <div class="form_item">
+                                    <label>Họ và tên*</label>
+                                    <input type="text" name="name" placeholder="Nhập họ và tên" />
+                                </div>
+                                <div class="form_item">
+                                    <label>Email*</label>
+                                    <input type="email" name="email" placeholder="Nhập địa chỉ email" />
+                                </div>
+                                <div class="form_item">
+                                    <label>Điện thoại*</label>
+                                    <input type="text" name="phone" placeholder="Nhập số điện thoại" />
+                                </div>
+                                <div class="form_item">
+                                    <label>Nội dung*</label>
+                                    <textarea rows="5" cols="100" name="context" placeholder="Nội dung liên hệ"></textarea>
+                                </div>
+                                <button type="submit">Gửi tin nhắn</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="contact_item contact_phone">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel:0123456789">0123.456.789</a>
-                    </div>
-                    <div class="contact_item contact_mail">
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:hung@gmail.com">hung@gmail.com</a>
+                    <div class="contact_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4736630784178!2d105.73291811420245!3d21.05373599230272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1656484972294!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="contact_help">
-                    <p class="contact_help-header">
-                        Bạn cần hỗ trợ? Hãy gửi thông tin cho chúng tôi
-                    </p>
-                    <p class="contact_help-text">
-                        Chúng tôi rất sẵn lòng trả lời bất kỳ câu hỏi, thắc mắc nào của bạn.
-                    </p>
-                    <form>
-                        <div class="form_item">
-                            <label>Họ và tên*</label>
-                            <input type="text" name="name" placeholder="Nhập họ và tên" />
-                        </div>
-                        <div class="form_item">
-                            <label>Email*</label>
-                            <input type="email" name="email" placeholder="Nhập địa chỉ email" />
-                        </div>
-                        <div class="form_item">
-                            <label>Điện thoại*</label>
-                            <input type="text" name="phone" placeholder="Nhập số điện thoại" />
-                        </div>
-                        <div class="form_item">
-                            <label>Nội dung*</label>
-                            <textarea rows="5" cols="100" name="context" placeholder="Nội dung liên hệ"></textarea>
-                        </div>
-                        <div class="form_item">
-                            <label>Họ và tên*</label>
-                            <input type="text" name="name" placeholder="Nhập họ và tên" />
-                        </div>
-                        <button type="submit">Gửi tin nhắn</button>
-                    </form>
-                </div>
             </div>
-            <div class="contact_map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4736630784178!2d105.73291811420245!3d21.05373599230272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1656484972294!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-        
+
         <jsp:include page="Footer.jsp"></jsp:include>
     </body>
 </html>

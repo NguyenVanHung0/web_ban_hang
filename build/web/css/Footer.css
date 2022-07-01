@@ -22,9 +22,15 @@
 }
 
 .footer_content{
-    padding: 40px 74px;
-    display: flex;
+    width: 100%;
 }
+
+.footer_box{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
 
 .footer_list{
     flex: 1;

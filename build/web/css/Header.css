@@ -29,12 +29,17 @@
     height: 35px;
     width: 55%;
     border: 1px solid var(--black-color);
+    border-radius: 4px;
     display: flex;
-    align-items: center;
-    border-radius: 4px; 
 }
 
-.header_input-box input{
+.header_input-box form{
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.header_input-box form input{
     height: 100%;
     width: 85%;
     border: none;
@@ -44,7 +49,7 @@
     font-size: 1.6rem;
 }
 
-.header_input-box button{
+.header_input-box form button{
     background-color: var(--black-color);
     height: 35px;
     flex: 1;
@@ -77,6 +82,37 @@
 .header_item{
     font-size: 1.6rem;
     margin-left: 20px;
+    position: relative;
+}
+
+.account_list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    /* background-color: #777; */
+    border: 1px solid #777;
+    padding: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.account_list::before{
+    content: "";
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top:-15px;
+    left: 0;
+}
+
+.account_list a:hover{
+    color: var(--hover-color);
+}
+
+.logout:hover .account_list{
+    display: block;
 }
 
 .header_item:hover{
@@ -113,4 +149,10 @@
     font-size: 1.3rem;
     font-weight: 600;
 }
+
+.active1{
+    background-color: var(--over-color);
+}
+
+
 

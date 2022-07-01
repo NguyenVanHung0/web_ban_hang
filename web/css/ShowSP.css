@@ -1,0 +1,115 @@
+.showsp{
+    width: 100%;
+}
+
+.showsp_box{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.showsp_listdm{
+    flex: 1;
+    border-right: 1px solid #777;
+    margin: 8px 0;
+}
+
+.showsp_listdm p{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 20px 0 16px;
+}
+
+.showsp_list-parent{
+    list-style: none;
+}
+
+.showsp_parent-item{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.showsp_parent-item i{
+    position: absolute;
+    right: 16px;
+    top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.showsp_parent-item a{
+        font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.showsp_parent-item a:hover,
+.showsp_child-item a:hover{
+    color: var(--hover-color);
+}
+
+.appear{
+    display: block !important;
+}
+
+.showsp_list-child{
+    list-style: none;
+    margin-left: 16px;
+    display: none;
+}
+
+.showsp_child-item{
+    margin-top: 4px;
+}
+
+.showsp_child-item a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--text-color);
+    
+}
+
+
+
+
+.showsp_content{
+    flex: 3;
+    margin: 8px 0;
+    padding: 0 16px;
+}
+
+.showsp_header{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 20px 0 16px;
+}
+
+.showsp_sort{
+    margin-bottom: 8px;
+}
+
+.showsp_sort b{
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+.showsp_sort select{
+    height: 30px;
+    outline: none;
+}
+
+.show_list-product{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.banner2_pro-item{
+    margin-bottom: 16px;
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+}

@@ -17,15 +17,17 @@
         <link rel="stylesheet" href="./css/Banner2.css"/>
         <link rel="stylesheet" href="./css/Banner3.css"/>
         <link rel="stylesheet" href="./css/News.css"/>
-        <link rel="stylesheet" href="./css/Footer.css"/>
+        <link rel="stylesheet"  type="text/css" href="./css/Footer.css"/>
     </head>
     <body>
         <div class="main">
             <jsp:include page="Header.jsp"></jsp:include>
-            
+
             <jsp:include page="Content.jsp"></jsp:include>
-            
-             <jsp:include page="Footer.jsp"></jsp:include>
-        </div>
+
+            <jsp:include page="Footer.jsp"></jsp:include>
+
+            </div>
     </body>
+    
 </html>

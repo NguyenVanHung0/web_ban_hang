@@ -1,5 +1,10 @@
 .introduce{
-    padding: 20px 74px;
+    width: 100%;
+}
+
+.introduce_box{
+    width: 1200px;
+    margin: auto;
 }
 
 .introduce h1{

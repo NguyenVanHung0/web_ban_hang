@@ -4,88 +4,49 @@
     Author     : NguyenVanHung
 --%>
 
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div class="banner_1">
     <div class="banner1_box">
         <div class="banner1_top">
             <ul class="banner1_list">
                 <li class="banner1_item">
-                    <a href="">
+                    <a>
                         Thời trang nam
                         <i class="fa-solid fa-angle-right"></i>
                         <ul class="banner1_list-child">
-
+                            <c:forEach items="${listCaMale}" var="o">
                             <li class="banner1_item-child">
-                                <a href="">
-                                    Áo sơ mi nam
+                                <a href="category?id=${o.id}">
+                                    ${o.name}
                                 </a>
                             </li>
-                            <li class="banner1_item-child">
-                                <a href="">
-                                    Áo khoác da
-                                </a>
-                            </li>
-                            <li class="banner1_item-child">
-                                <a href="">
-                                    Quần short đẹp
-                                </a>
-                            </li>
+                            </c:forEach>
                         </ul>
                     </a>
                 </li>
                 <li class="banner1_item">
-                    <a href="">
+                    <a>
                         Thời trang nữ
                         <i class="fa-solid fa-angle-right"></i>
                         <ul class="banner1_list-child">
+                            <c:forEach items="${listCaFemale}" var="o">
                             <li class="banner1_item-child">
-                                <a href="">
-                                    Áo thun nữ
+                                <a href="category?id=${o.id}">
+                                    ${o.name}
                                 </a>
                             </li>
-                            <li class="banner1_item-child">
-                                <a href="">
-                                    Quần đùi
-                                </a>
-                            </li>
+                            </c:forEach>
                         </ul>
                     </a>
                 </li>
+                <c:forEach items="${listCaCom}" var="o"  >
                 <li class="banner1_item">
-                    <a href="">
-                        Áo khoác da
+                    <a href="category?id=${o.id}">
+                        ${o.name}
                     </a>
                 </li>
-                <li class="banner1_item">
-                    <a href="">
-                        Phụ kiện thời trang
-                    </a>
-                </li>
-                <li class="banner1_item">
-                    <a href="">
-                        Quần short đẹp
-                    </a>
-                </li>
-                <li class="banner1_item">
-                    <a href="">
-                        Áo thun nữ
-                    </a>
-                </li>
-                <li class="banner1_item">
-                    <a href="">
-                        Quần đùi cá tính
-                    </a>
-                </li>
-                <li class="banner1_item">
-                    <a href="">
-                        Giày dép
-                    </a>
-                </li>
-                <li class="banner1_item">
-                    <a href="">
-                        Phụ kiện thời trang
-                    </a>
-                </li>
+                </c:forEach> 
             </ul>
             <div class="banner1_slide">
                 <img src="./asset/images/silder1.jpg" />

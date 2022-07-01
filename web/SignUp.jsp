@@ -14,7 +14,7 @@
             <div class="login_form">
                 <div class="form_left">
                     <p class="form_header">Sign Up</p>
-                    <form>
+                    <form action="SignUpController" method="post">
                         <div>
                             <label>SDT</label>
                             <input type="text" name="sdt" placeholder="Sdt"/> <br>
@@ -37,7 +37,7 @@
                 <div class="form_right">
                     <p class="heading">Welcome to sign up</p>
                     <p class="question">I have an account</p>
-                    <button>Sing in</button>
+                    <a href="Login.jsp">Sign in</a>
                 </div>
             </div>
         </div>

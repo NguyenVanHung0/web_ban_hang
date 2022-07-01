@@ -4,9 +4,15 @@
  */
 package com.controller;
 
+import Entity.Account;
+import Entity.Category;
+import Entity.Product;
+import com.dta.DAO;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -29,8 +35,33 @@ public class HomeController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
         
-        response.sendRedirect("Home.jsp");
+        DAO dao = new DAO();
+        int id_user = 0;
+        Cookie[] arrCookie = request.getCookies();
+        for(Cookie c : arrCookie){
+            if(c.getName().equals("accountId")){
+                id_user = Integer.parseInt(c.getValue());
+            }
+        }
+        Account account = dao.getAccountById(id_user);
+        
+        String page = request.getParameter("page");
+        
+        ArrayList<Category> listCommon = dao.getListCategoryCommon();
+        ArrayList<Category> listMale = dao.getListCategoryMale();
+        ArrayList<Category> listFemale = dao.getListCategoryFemale();
+        ArrayList<Product> listProduct = dao.getProduct();
+        
+        request.setAttribute("listCaCom", listCommon);
+        request.setAttribute("page", page);
+        request.setAttribute("listCaMale", listMale);
+        request.setAttribute("listCaFemale", listFemale);
+        request.setAttribute("listProduct", listProduct);
+        request.setAttribute("acc", account);
+        request.getRequestDispatcher("Home.jsp").forward(request, response);
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

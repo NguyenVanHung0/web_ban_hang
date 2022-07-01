@@ -17,91 +17,99 @@
 
             <div class="search">
                 <div class="search_box">
-                <div class="search_header">
-                    <p>Từ khó tìm kiếm: short ni</p>
-                </div>
-                <div class="search_product">
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
+                    <div class="search_header">
+                        <p>Từ khóa tìm kiếm: short ni</p>
                     </div>
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="banner2_pro-item">
-                        <a href="">
-                            <img src="./asset/images/product.jpg" alt="alt"/>
-                            <p class="product_title">Quần jeans co dãn</p>
-                            <p class="product_price">150.000</p><span>đ</span>
-                            <div class="banner2_pro-item-icon">
-                                <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
-                                <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-                            </div>
-                        </a>
+                    <div class="search_product">
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="banner2_pro-item">
+                            <a href="">
+                                <img src="./asset/images/product.jpg" alt="alt"/>
+                                <p class="product_title">Quần jeans co dãn</p>
+                                <p class="product_price">150.000</p><span>đ</span>
+                                <div class="banner2_pro-item-icon">
+                                    <a class="heart-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    <a class="cart-icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    <jsp:include page="Footer.jsp"></jsp:include>
-</body>
+        <jsp:include page="Footer.jsp"></jsp:include>
+        <jsp:include page="Cart.jsp"></jsp:include> 
+    </body>
+    <script>
+        var cartBtn = document.querySelector(".header_cart");
+        var cartBox = document.querySelector(".cart");
+        cartBtn.addEventListener("click", function () {
+            cartBox.style.display = "flex";
+        });
+    </script>
 </html>

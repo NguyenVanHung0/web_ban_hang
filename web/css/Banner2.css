@@ -7,16 +7,17 @@
 .banner2_box{
     width: 1200px;
     margin: auto;
-}
-
-.banner2_top,
-.banner2_bottom{
     display: flex;
 }
 
+.banner2_left{
+    margin-right: 16px;
+}
+
 .banner2_list{
-    width: 234px;
+    width: 255px;
     height: auto;
+    min-height: 278px;
     padding: 10px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 4px;
@@ -56,20 +57,18 @@
 
 .banner2_product{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     flex: 4;
 }
 
-.banner2_pro-item:first-child{
-    margin-left: 8px;
-}
 
 .banner2_pro-item{
     width: 23%;
     height: 100%;
     position: relative;
+    margin: 16px 1% 0;
 }
 
 .banner2_pro-item a{
@@ -129,12 +128,10 @@
     opacity: 0.8;
 }
 
-.banner2_bottom{
-    margin-top: 16px;
-}
 
 .banner2_img{
     width: 255px;
+    margin-top: 16px;
 }
 
 .banner2_img:hover {

@@ -14,7 +14,7 @@
             <div class="login_form">
                 <div class="form_left">
                     <p class="form_header">Sign In</p>
-                    <form>
+                    <form action="LoginController" method="post">
                         <div>
                             <label>USERNAME</label>
                             <input type="text" name="username" placeholder="Username"/> <br>
@@ -28,13 +28,12 @@
                             <div><input type="checkbox" name="remember" id="check"/> <lable for="check">Remember me</lable></div>
                             <a href="">Forgot Password</a>
                         </div>
-                        
                     </form>
                 </div>
                 <div class="form_right">
                     <p class="heading">Welcome to sign in</p>
                     <p class="question">Don't have an account?</p>
-                    <button>Sing up</button>
+                    <a href="SignUp.jsp">Sign up</a>
                 </div>
             </div>
         </div>

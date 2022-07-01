@@ -13,10 +13,12 @@
             </a>
         </div>
         <div class="header_input-box">
-            <input type="text" name="name" placeholder="Nhập tên sản phẩm" />
-            <button>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+            <form action="SearchController" method="get">
+                <input type="text" name="name" placeholder="Nhập tên sản phẩm" />
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
         </div>
         <div class="header_like-cart-account">
             <a href="">
@@ -25,41 +27,42 @@
                     Yêu thích
                 </div>
             </a>
-            <a href="">
-                <div class="header_item">
+            <a href="CartController">
+                <div class="header_item header_cart">
                     <i class="fa-solid fa-cart-arrow-down"></i>
                     0đ
                 </div>
             </a>
-            <a href="">
-                <div class="header_item">
-                    <i class="fa-solid fa-user"></i>
-                    Tài khoản
-                </div> 
-            </a>
+            <div class="header_item logout">
+                <i class="fa-solid fa-user"></i>
+                ${acc.name}
+                <div class="account_list">
+                    <a href="Login.jsp">Đăng xuất</a>
+                </div>
+            </div> 
         </div>
     </div>
 </header>
 <div class="navbar">
     <ul class="navbar_list">
-        <li>
+        <li class="active1">
             <a href="">
                 DANH MỤC SẢN PHẢM
             </a>
         </li>
-        <li>
-            <a href="">
+        <li class="${page == "home" ? "active1" : ""}">
+            <a href="HomeController?page=home">
                 TRANG CHỦ
             </a>
         </li>
-        <li>
-            <a href="">
+        <li class="${page == "introduce" ? "active1" : ""}">
+            <a href="IntroduceController?page=introduce">
                 GIỚI THIỆU
             </a>
         </li>
-        <li>
-            <a href="">
-                SẢN PHẢM
+        <li class="${page == "product" ? "active1" : ""}">
+            <a href="ShowSPController?page=product">
+                SẢN PHẨM
             </a>
         </li>
         <li>
@@ -67,10 +70,20 @@
                 TIN TỨC
             </a>
         </li>
-        <li>
-            <a href="">
+        <li class="${page == "contact" ? "active1" : ""}">
+            <a href="ContactController?page=contact">
                 LIÊN HỆ
             </a>
         </li>
     </ul>
 </div>
+
+<!--<script>
+    var menuItems = document.querySelectorAll(".navbar_list li");
+    menuItems.forEach(function(item){
+//        item.classList.remove("active");
+        item.addEventListener("click", function(e) {
+            item.classList.add("active");
+        });
+    });
+</script>-->

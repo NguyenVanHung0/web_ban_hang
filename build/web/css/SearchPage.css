@@ -7,3 +7,22 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.search_header{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    margin: 20px 0 16px;
+}
+
+.search_product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner2_pro-item{
+    margin-bottom: 16px;
+}

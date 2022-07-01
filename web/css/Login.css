@@ -98,14 +98,16 @@
     margin: 20px 0;
 }
 
-.form_right button{
+
+.form_right a{
+        text-decoration: none;
+    color: var(--white-color);
     height: 30px;
     border: 1px solid var(--white-color);
-    outline: none;
     background: transparent;
     border-radius: 12px;
     padding: 4px 8px;
-    color: var(--white-color);
+    font-size: 1.6rem;
 }
 
 .login button:hover,
