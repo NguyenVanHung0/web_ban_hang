@@ -15,7 +15,21 @@ public class Order {
     private int id_user;
     private List<Product> listPro;
     private int status;
+    private double totalMoney;
+    private String phone;
+    private String address;
 
+    public Order(int id_order, int id_user, List<Product> listPro, int status, double totalMoney, String phone, String address) {
+        this.id_order = id_order;
+        this.id_user = id_user;
+        this.listPro = listPro;
+        this.status = status;
+        this.totalMoney = totalMoney;
+        this.phone = phone;
+        this.address = address;
+    }
+
+  
     public Order(int id_user, List<Product> listPro, int status) {
         this.id_user = id_user;
         this.listPro = listPro;
@@ -52,6 +66,30 @@ public class Order {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public double getTotalMoney() {
+        return totalMoney;
+    }
+
+    public void setTotalMoney(double totalMoney) {
+        this.totalMoney = totalMoney;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
     
     

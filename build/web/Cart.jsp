@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="cart_buy-btn">
-                    <button>Đặt hàng</button>
+                    <button><a href="OrderController">Mua hàng</a></button>
                 </div>
             </div>
         </div>

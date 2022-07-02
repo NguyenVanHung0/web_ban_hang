@@ -29,6 +29,14 @@ public class Product {
         this.title = title;
     }
 
+    public Product(int id, int quantity, double price_output) {
+        this.id = id;
+        this.quantity = quantity;
+        this.price_output = price_output;
+    }
+    
+    
+
     public int getId() {
         return id;
     }

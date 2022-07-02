@@ -6,6 +6,7 @@ package com.controller;
 
 import Entity.Account;
 import Entity.Category;
+import Entity.Order;
 import Entity.Product;
 import com.dta.DAO;
 import java.io.IOException;
@@ -17,6 +18,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -40,12 +42,14 @@ public class ShowSPController extends HttpServlet {
         
         DAO dao = new DAO();
         
-        
+      
+        String login_logout = "Đăng nhập";
         int id_user = 0;
         Cookie[] arrCookie = request.getCookies();
         for(Cookie c : arrCookie){
             if(c.getName().equals("accountId")){
                 id_user = Integer.parseInt(c.getValue());
+                login_logout = "Đăng xuất";
             }
         }
         Account account = dao.getAccountById(id_user);
@@ -60,6 +64,7 @@ public class ShowSPController extends HttpServlet {
         request.setAttribute("listCaMale", listMale);
         request.setAttribute("listCaFemale", listFemale);
         request.setAttribute("acc", account);
+        request.setAttribute("login_logout", login_logout);
         request.getRequestDispatcher("ShowSP.jsp").forward(request, response);
     }
 

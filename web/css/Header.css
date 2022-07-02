@@ -79,10 +79,51 @@
     color: var(--text-color);
 }
 
+.header_like-cart-account > div{
+    position: relative;
+}
+
+.header_like-cart-account > div::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.header_like-cart-account > div:hover .header_cart-slidedown{
+    display: block;
+}
+
 .header_item{
     font-size: 1.6rem;
     margin-left: 20px;
     position: relative;
+}
+
+.header_cart-slidedown{
+    position: absolute;
+    top: 120%;
+    left: 20px;
+    width: 120%;
+    background: var(--white-color);
+    padding: 0 4px;
+    border: 1px solid #777;
+    display: none;
+}
+
+.header_cart-slidedown a{
+        font-size: 1.6rem;
+    display: block;
+    margin-top: 8px;
+    border-bottom: 1px solid #777;
+    padding-bottom: 4px;
+}
+
+.header_cart-slidedown a:hover{
+    color: var(--hover-color);
 }
 
 .account_list{

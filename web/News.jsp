@@ -80,31 +80,31 @@
                         <img src="./asset/images/brand.jpg" />
                     </div>
                     <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
+                        <img src="./asset/images/vinaconex.jpg" />
+                    </div>
+                    <div class="brand_slide">
+                        <img src="./asset/images/vinahome.jpg" />
+                    </div>
+                    <div class="brand_slide">
+                        <img src="./asset/images/vinamilk.jpg" />
+                    </div>
+                    <div class="brand_slide">
+                        <img src="./asset/images/vinline.jpg" />
+                    </div>
+                    <div class="brand_slide">
+                        <img src="./asset/images/sungroup.jpg" />
                     </div>
                     <div class="brand_slide">
                         <img src="./asset/images/brand.jpg" />
                     </div>
                     <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
+                        <img src="./asset/images/vinaconex.jpg" />
                     </div>
                     <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
+                        <img src="./asset/images/vinahome.jpg" />
                     </div>
                     <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
-                    </div>
-                    <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
-                    </div>
-                    <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
-                    </div>
-                    <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
-                    </div>
-                    <div class="brand_slide">
-                        <img src="./asset/images/brand.jpg" />
+                        <img src="./asset/images/vinamilk.jpg" />
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@
 <header class="header">
     <div class="header_box">
         <div class="header_logo">
-            <a href="">
+            <a href="HomeController?page=home">
                 <img src="./asset/images/logo.png" alt="logo"/>
             </a>
         </div>
@@ -27,17 +27,21 @@
                     Yêu thích
                 </div>
             </a>
-            <a href="CartController">
+            <div>
                 <div class="header_item header_cart">
                     <i class="fa-solid fa-cart-arrow-down"></i>
-                    0đ
+                    Cart
                 </div>
-            </a>
+                <div class="header_cart-slidedown">
+                    <a href="CartController">My cart</a>
+                    <a href="MyOrderController">My order</a>
+                </div>
+            </div>
             <div class="header_item logout">
                 <i class="fa-solid fa-user"></i>
                 ${acc.name}
                 <div class="account_list">
-                    <a href="Login.jsp">Đăng xuất</a>
+                    <a href="Login.jsp">${login_logout}</a>
                 </div>
             </div> 
         </div>

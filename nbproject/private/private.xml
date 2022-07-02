@@ -3,11 +3,27 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/web/css/Cart.css</file>
-            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/LoginController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/web/css/DetailOrder.css</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/IntroduceController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/ContactController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/DetailOrderController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/ShowSPController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/Entity/Product.java</file>
             <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/web/Header.jsp</file>
-            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/web/Cart.jsp</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/AddCartController.java</file>
             <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/CartController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/DetailProductController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/OrderController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/Entity/Account.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/web/DetailOrder.jsp</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/LoginController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/web/Cart.jsp</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/HomeController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/CategoryController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/HandleQuantity.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/dta/DAO.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/SearchController.java</file>
+            <file>file:/C:/Users/NguyenVanHung/Documents/NetBeansProjects/WebQuanAo/src/java/com/controller/DeleteSPCartController.java</file>
         </group>
     </open-files>
 </project-private>

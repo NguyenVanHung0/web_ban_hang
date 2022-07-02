@@ -65,8 +65,8 @@
                 </ul>
             </div>
             <div class="footer_address">
-                <a href=""><img src="./asset/images/logo.png" alt="alt"/></a>
-                <div class="address"><b>Địa chỉ:</b> Số 6 Phan Chu Trinh, Quận 10, TP.HCM</div>
+                <a href="HomeController"><img src="./asset/images/logo.png" alt="alt"/></a>
+                <div class="address"><b>Địa chỉ:</b>Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội</div>
                 <div class="phone_email"><b>Điện thoại: </b><a href="tel:0123456789">0123.456.789-</a><b>Email: </b><a href="mailto:hung@gmail.com">hung@gmail.com-</a><b>Website: </b><a href="http://abc.com.vn">abc.com.nv</a></div>
 
             </div>

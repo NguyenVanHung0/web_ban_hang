@@ -1,0 +1,79 @@
+.detail_order{
+    width: 100%;
+}
+
+.detail_order-box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 20px 16px;
+}
+
+.detail_order-list{
+    flex: 2;
+    width: 100%;
+    border-right: 1px solid #777;
+}
+
+.detail_order-info{
+    flex: 1;
+    margin-left: 16px;
+}
+
+.detail_order-address,
+.detail_order-phone{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.detail_order-address textArea{
+    outline: none;
+    border: 1px solid #777;
+    padding: 4px 8px;
+}
+
+.detail_order-phone input{
+    height: 30px;
+    outline: none;
+    border: 1px solid #777;
+    width: 70%;
+    padding: 4px 8px;
+}
+
+.detail_order-money{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.detail_order-money p,
+.detail_order-money span{
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    
+}
+
+.detail_order-money p{
+    font-weight: bold;
+        font-weight: bold;
+    margin-right: 8px;
+}
+
+ button{
+    padding: 8px 16px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: var(--white-color);
+}
+
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

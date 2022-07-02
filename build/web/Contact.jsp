@@ -22,7 +22,7 @@
                             <p class="contact_header">Liên hệ với chúng tôi</p>
                             <div class="contact_item contact_address">
                                 <i class="fa-solid fa-location-dot"></i>
-                                <p>Số 6 Phan Chu Trinh, Quận 10, TP.HCM</p>
+                                <p>Phường Minh Khai, Quận Bắc Tử Liêm, Hà Nội</p>
                             </div>
                             <div class="contact_item contact_phone">
                                 <i class="fa-solid fa-phone"></i>
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="contact_map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4736630784178!2d105.73291811420245!3d21.05373599230272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1656484972294!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29786.602140083553!2d105.7296703819568!3d21.05966720216896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454e33407ecc7%3A0x6b9d843be64f7f06!2zTWluaCBLaGFpLCBC4bqvYyBU4burIExpw6ptLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1656751028093!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

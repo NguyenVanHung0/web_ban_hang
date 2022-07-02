@@ -5,15 +5,19 @@
 package com.controller;
 
 import Entity.Account;
+import Entity.Order;
+import Entity.Product;
 import com.dta.DAO;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -38,17 +42,22 @@ public class IntroduceController extends HttpServlet {
         
         DAO dao = new DAO();
         
+       
+        String login_logout = "Đăng nhập";
         int id_user = 0;
         Cookie[] arrCookie = request.getCookies();
         for(Cookie c : arrCookie){
             if(c.getName().equals("accountId")){
                 id_user = Integer.parseInt(c.getValue());
+                login_logout = "Đăng xuất";
             }
         }
         Account account = dao.getAccountById(id_user);
         
+        
         request.setAttribute("page", page);
         request.setAttribute("acc", account);
+        request.setAttribute("login_logout", login_logout);
         request.getRequestDispatcher("Introduce.jsp").forward(request, response);
     }
 

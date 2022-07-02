@@ -4,7 +4,7 @@
 
 
 .cart_box{
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 20px 16px;
 }
@@ -74,8 +74,12 @@
     width: 50px;
     height: 30px;
     background-color: var(--white-color);
-    color: var(--text-color);
     border-radius: 4px;
+}
+
+.product_item button a{
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .product_item button:hover{
@@ -93,7 +97,6 @@
     padding: 8px 16px;
     font-size: 1.6rem;
     font-weight: 600;
-    color: var(--white-color);
     background-color: var(--black-color);
     outline: none;
     border: none;
@@ -101,7 +104,12 @@
     border-radius: 8px;
 }
 
-.cart_buy-btn button:hover{
+.cart_buy-btn button a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.cart_buy-btn button a:hover{
     opacity: 0.8;
 }
 

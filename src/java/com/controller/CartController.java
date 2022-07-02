@@ -41,11 +41,15 @@ public class CartController extends HttpServlet {
         
         DAO dao = new DAO();
         
+        
+        
+        String login_logout = "Đăng nhập";
         int id_user = 0;
         Cookie[] arrCookie = request.getCookies();
         for(Cookie c : arrCookie){
             if(c.getName().equals("accountId")){
                 id_user = Integer.parseInt(c.getValue());
+                login_logout = "Đăng xuất";
             }
         }
         Account account = dao.getAccountById(id_user);
@@ -57,8 +61,11 @@ public class CartController extends HttpServlet {
             order = (Order) session.getAttribute("order");
             list = (ArrayList<Product>) order.getListPro();
         }
+        
+        
         request.setAttribute("listProduct", list);
         request.setAttribute("acc", account);
+        request.setAttribute("login_logout", login_logout);
         request.getRequestDispatcher("Cart.jsp").forward(request, response);
        
     }

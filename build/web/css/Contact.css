@@ -51,12 +51,6 @@
 
 
 
-
-
-
-
-
-
 .contact_help{
     flex: 1;
     margin: 10px 0px 0px;
@@ -117,5 +111,6 @@
 
 .contact_map{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
